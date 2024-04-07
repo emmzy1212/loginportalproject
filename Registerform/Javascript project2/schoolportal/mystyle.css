@@ -1,0 +1,11 @@
+/* Hover effect for accordion titles */
+.accordion-title a:hover {
+    color: #007bff; /* Change to your desired hover color */
+    text-decoration: none;
+}
+
+/* Hover effect for progress bars */
+.progressbar-percent:hover {
+    background-color: #007bff; /* Change to your desired hover color */
+}
+

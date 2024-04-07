@@ -1,0 +1,165 @@
+.jui{
+    background-color: rgb(3, 31, 3); 
+    padding-top: 30px; 
+    margin-top: 5px; 
+    margin-left: 600px; 
+    margin-right: 400px;
+}
+
+#username{
+    width: 300px; 
+    height: 40px; 
+    border-radius: 20px;
+}
+
+#pass{
+    width: 300px; 
+    height: 40px; 
+    border-radius: 20px;
+}
+
+.game{
+    color: white; 
+    font-size: x-large; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.chill{
+    color: white; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.ruli{
+    background-color: rgb(3, 67, 61); 
+    padding: 30px; 
+    margin: 20px;
+    margin-top: -210px;
+}
+
+.bi{
+    width: 900px;
+}
+
+#username{
+    box-shadow: 2px 2px 2px 2px rgb(110, 116, 118);
+    border: none;
+
+}
+
+#username:hover{
+    background-color: rgb(204, 179, 148);
+}
+
+#pass{
+    box-shadow: 2px 2px 2px 2px rgb(110, 116, 118);
+    border: none;
+
+}
+
+#pass:hover{
+    background-color: rgb(204, 179, 148);
+}
+
+.jim{
+    box-shadow: 10px 10px 10px 10px rgb(110, 116, 118);
+    background-color: #2c3235; 
+    height: 600px; 
+    margin-top: -20px; 
+    padding: 80px; 
+    margin-left: -69px;
+}
+
+#meme{
+    border-radius: 20px;
+    border: none;
+    box-shadow: 2px 2px 2px 2px rgb(110, 116, 118);
+}
+
+
+#meme:hover{
+    background-color: rgb(204, 179, 148);
+}
+
+
+#submit{
+    border-radius: 20px;
+    border: none;
+    box-shadow: 4px 4px 4px 4px rgb(110, 116, 118);
+    background-color: rgb(4, 37, 25); 
+    color: white;
+    animation: we;
+    animation-duration: 20s;
+}
+
+@keyframes we {
+from{box-shadow: 3px 3px 3px 3px rgb(72, 37, 176);}
+to{box-shadow: 3px 3px 3px 3px rgb(14, 96, 100);}
+
+}
+
+.way:hover{
+    background-color: rgb(204, 179, 148);
+}
+
+#submit:hover{
+    background-color: rgb(4, 37, 25);
+}
+
+.grey{
+    box-shadow: 10px 10px 10px 10px rgb(110, 116, 118);
+}
+
+.tie{
+    height: 280px; 
+    margin-top: -60px; 
+    width: 500px; 
+    margin-left: 20px;
+}
+
+.jim:hover{
+    background-color: rgb(4, 37, 25);
+
+}
+.welcome{
+    font: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.chp{
+    background-image: url(img/focus-concept-magnifying-glass-text-grey-leather-background-79708376.webp);
+}
+
+.chp:hover{
+    background-color: rgb(#1c6fd1);
+}
+
+.ruli{
+    background-color: #2c3235;
+    box-shadow: 10px 10px 10px 10px rgb(110, 116, 118);
+}
+
+.ruli:hover{
+    background-color: rgb(3, 31, 3);
+    background-color: rgb(4, 37, 25);
+    box-shadow: 10px 10px 10px 10px rgb(110, 116, 118);
+}
+
+
+#gry{
+    position: absolute;
+    z-index: 1;
+    margin-top: 200px;
+    margin-bottom: 90px;
+}
+
+.wer{
+    position: absolute;
+    z-index: 1;
+    margin-top: 230px;
+    width: 240px;
+}
+
+/* .jim{
+    position: absolute;
+    z-index: 1;
+} */

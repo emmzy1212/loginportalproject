@@ -1,0 +1,103 @@
+/* Hover effect for accordion titles */
+.accordion-title a:hover {
+    color: #007bff; /* Change to your desired hover color */
+    text-decoration: none;
+}
+
+/* Hover effect for progress bars */
+.progressbar-percent:hover {
+    background-color: #007bff; /* Change to your desired hover color */
+}
+
+.box-icon-content a {
+    display: inline-block;
+    padding: 5px 10px;
+    margin-top: 10px;
+    color: #fff;
+    background-color: #333;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+}
+
+.box-icon-content a:hover {
+    background-color: #555;
+}
+
+/* Animation */
+.animation {
+    animation-duration: 1s;
+}
+
+@keyframes bounceInRight {
+    from,
+    20%,
+    40%,
+    60%,
+    80%,
+    to {
+        animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    }
+
+    0% {
+        opacity: 0;
+        transform: translate3d(3000px, 0, 0);
+    }
+
+    20% {
+        transform: translate3d(-25px, 0, 0);
+    }
+
+    40% {
+        transform: translate3d(10px, 0, 0);
+    }
+
+    60% {
+        transform: translate3d(-5px, 0, 0);
+    }
+
+    80% {
+        transform: translate3d(2px, 0, 0);
+    }
+
+    to {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+.bounceInRight {
+    animation-name: bounceInRight;
+}
+
+
+.sections.section-2 {
+    color: white;
+    background-color: black;
+}
+
+.sections.section-2:hover {
+    color: white;
+    background-color: grey;
+}
+
+.sections.sections-padding-b-50:hover{
+    background-color: rgb(31, 6, 46);
+
+}
+
+
+
+.jim:hover{
+    background-color: rgb(31, 6, 46);
+
+}
+
+.portfolio-content:hover{
+    background-color: rgb(171, 67, 230);
+
+}
+
+.accordion-inner:hover{
+    background-color: rgb(171, 67, 230);
+
+}
